@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+  </head>
+
+  <body>
+    <h1>Checkout</h1>
+    <section>
+      <h2>Your Cart</h2>
+      <img
+        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/imac-specs-trade-202601-pink-8-8-desktop?wid=5120&hei=3280&fmt=webp&qlt=90&.v=RHNYVlhkZURHWUlROHExS2FzQjkvWEtpb3paVCtPM3lsMmU2YVQzWG9rc0t6c3lWRGEzR3NIOTk5N3FSUmwyZjVuN2lXRTVOb1loNVRQa0JQdW51Z2EyL0ZSTzZrMWlpUU5CQlpuNHNUZzh5RW1BSGV2V2dCY1RPU25PU01kYU0&traceId=1"
+        width="500"
+        alt="Pink iMac"
+      />
+    </section>
+    <section>
+      <h2>Payment Information</h2>
+      <form>
+        <label for="card-name"
+          >Cardholder Name <span aria-hidden="true">*</span>:</label
+        >
+        <input type="text" id="card-name" name="card-name" required />
+        <br />
+        <br />
+        <label for="card-number"
+          >Card Number <span aria-hidden="true">*</span>:</label
+        >
+        <input
+          type="text"
+          id="card-number"
+          name="card-number"
+          aria-describedby="card-number-help"
+          required
+        />
+        <p id="card-number-help">
+          Please enter your 16-digit card number without spaces or dashes.
+        </p>
+      </form>
+    </section>
+  </body>
+</html>
